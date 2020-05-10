@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BIND_NOTIFICATION">android.permission.BIND_NOTIFICATION_LISTENER_SERVICE</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_alert_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="26sp"
+        android:text="@string/text_title_permission_denied"
+        android:textStyle="bold"
+        android:textColor="#DA0000"
+        android:layout_marginTop="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_action_open_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HABILITAR PERMISSÃO"
+        app:layout_constraintLeft_toLeftOf="@id/text_alert_permission"
+        app:layout_constraintRight_toRightOf="@id/text_alert_permission"
+        app:layout_constraintTop_toBottomOf="@id/text_alert_permission"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_alert_details_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_notification_message_alert_permission"
+        android:padding="16dp"
+        android:textStyle="italic"
+        android:background="#CAC7C7"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@id/button_action_open_permission"
+        app:layout_constraintLeft_toLeftOf="@id/button_action_open_permission"
+        app:layout_constraintLeft_toRightOf="@id/button_action_open_permission"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

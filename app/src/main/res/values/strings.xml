@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhatsappAutoNotification</string>
+    <string name="main_notification_message_alert_permission">Caso você esteja vendo essa mensagem é porque o aplicativo não esta com a permissão de escuta duas notificações do android, por favor habilite para que possamos controlar suas notificações.</string>
+    <string name="text_title_permission_denied">PERMISSÃO NEGADA</string>
+</resources>
